@@ -1740,8 +1740,8 @@ STR_2382    :土地
 STR_2383    :水面
 STR_2384    :{WINDOW_COLOUR_2}你的目标：
 STR_2385    :{BLACK}无
-STR_2386    :{BLACK}在{POP16}{MONTHYEAR} 之前乐园内至少有 {PUSH16}{PUSH16}{COMMA16} 游客, 并且乐园评分不低于 600
-STR_2387    :{BLACK}在{PUSH16}{PUSH16}{PUSH16}{MONTHYEAR}之前乐园价值不低于{POP16}{POP16}{CURRENCY}
+STR_2386    :{BLACK}在{POP16}{MONTHYEAR}过完之前乐园内至少有 {PUSH16}{PUSH16}{COMMA16} 游客, 并且乐园评分不低于 600
+STR_2387    :{BLACK}在{PUSH16}{PUSH16}{PUSH16}{MONTHYEAR}过完之前乐园价值不低于{POP16}{POP16}{CURRENCY}
 STR_2388    :{BLACK}尽情玩吧!
 STR_2389    :{BLACK}建造你的最佳{STRINGID}吧!
 STR_2390    :{BLACK}在你的乐园中运营10种类型的过山车, 并且每一个的兴奋度不低于 6.00
@@ -3049,9 +3049,9 @@ STR_5546    :{SMALLFONT}{BLACK}亮粉色
 STR_5547    :{SMALLFONT}{BLACK}浅粉色
 STR_5548    :显示所有运行模式
 STR_5549    :年/月/日
-STR_5550    :{POP16}{POP16}{COMMA16}年, {PUSH16}{PUSH16}{MONTH} {PUSH16}{PUSH16}{STRINGID}
+STR_5550    :第{POP16}{POP16}{COMMA16}年, {PUSH16}{PUSH16}{MONTH} {PUSH16}{PUSH16}{STRINGID}
 STR_5551    :年/日/月
-STR_5552    :{POP16}{POP16}{COMMA16}年, {PUSH16}{PUSH16}{PUSH16}{STRINGID} {MONTH}
+STR_5552    :第{POP16}{POP16}{COMMA16}年, {PUSH16}{PUSH16}{PUSH16}{STRINGID} {MONTH}
 STR_5553    :当Steam overlay打开时暂停游戏
 STR_5554    :{SMALLFONT}{BLACK}启用山丘工具
 STR_5555    :显示来自其他类型轨道的车辆种类
@@ -3771,6 +3771,28 @@ STR_6303    :下载文件 ({COMMA16} / {COMMA16}): [{STRING}]
 STR_6304    :打开景物选择器
 STR_6305    :多线程
 STR_6306    :{SMALLFONT}{BLACK}使用多个线程进行渲染的实验选项可能会导致游戏不稳定
+STR_6307    :配色主题: {BLACK}{STRINGID}
+STR_6308    :“{STRINGID}{OUTLINE}{TOPAZ}”{NEWLINE}{STRINGID}
+STR_6309    :重连
+STR_6310    :{WINDOW_COLOUR_2}位置: {BLACK}{INT32} {INT32} {INT32}
+STR_6311    :{WINDOW_COLOUR_2}Next: {BLACK}{INT32} {INT32} {INT32}
+STR_6312    :(surface)
+STR_6313    :(slope {INT32})
+STR_6314    :{WINDOW_COLOUR_2}Dest: {BLACK}{INT32}, {INT32} tolerance {INT32}
+STR_6315    :{WINDOW_COLOUR_2}Pathfind Goal: {BLACK}{INT32}, {INT32}, {INT32} dir {INT32}
+STR_6316    :{WINDOW_COLOUR_2}Pathfind history:
+STR_6317    :{BLACK}{INT32}, {INT32}, {INT32} dir {INT32}
+STR_6318    :Network desync detected.{NEWLINE}日志文件: {STRING}
+STR_6319    :{WINDOW_COLOUR_2}Block Brake Closed
+STR_6320    :{WINDOW_COLOUR_2}Indestructible
+STR_6321    :{WINDOW_COLOUR_2}Addition is broken
+STR_6322    :{WINDOW_COLOUR_2}Sprite Id: {BLACK}{INT32}
+STR_6323    :Simulating
+STR_6324    :Simulate
+STR_6325    :{SMALLFONT}{BLACK}Simulate ride/attraction
+STR_6326    :Can't simulate {POP16}{POP16}{POP16}{STRINGID}...
+STR_6327    :大型截图的透明背景
+STR_6328    :{SMALLFONT}{BLACK}启用此选项后，大型截图的背景将是透明的，而不是默认的黑色。
 
 
 #############
