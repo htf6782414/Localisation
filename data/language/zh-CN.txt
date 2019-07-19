@@ -1,4 +1,4 @@
-﻿# STR_XXXX part is read and XXXX becomes the string id number.
+# STR_XXXX part is read and XXXX becomes the string id number.
 # Everything after the colon and before the new line will be saved as the string.
 # Use # at the beginning of a line to leave a comment.
 STR_0000    :
@@ -162,7 +162,7 @@ STR_0577    :拥有转向架的车辅于木製轨道上, 被特别的倒转装�
 STR_0578    :车辆运行于O型的轨道中, 并会穿过陡下坡及横滚轨道
 STR_0579    :
 STR_0580    :一款可建造顺滑下坡及高达300英尺坡道的巨型铁製过山车
-STR_0581    :围绕著塔的座位会在不断慢慢旋转中被拉至塔顶, 然后便自由落体, 再被有磁力的煞车装置慢慢煞停于站台
+STR_0581    :围绕著塔的座位会在不断慢慢旋转中被拉至塔顶, 然后便自由落体, 再被有磁力的刹车装置慢慢煞停于站台
 STR_0582    :
 STR_0583    :
 STR_0584    :运行在铁製单轨上的特别单车, 像一般单车一样, 会被乘客踏行
@@ -295,14 +295,14 @@ STR_0905    :{SMALLFONT}{BLACK}右转（大弧度）
 STR_0906    :{SMALLFONT}{BLACK}直行
 STR_0907    :坡度
 STR_0908    :滚动/倾斜
-STR_0909    :Seat Rot.
-STR_0910    :{SMALLFONT}{BLACK}Roll for left-hand curve
-STR_0911    :{SMALLFONT}{BLACK}Roll for right-hand curve
-STR_0912    :{SMALLFONT}{BLACK}No roll
-STR_0913    :{SMALLFONT}{BLACK}Move to previous section
-STR_0914    :{SMALLFONT}{BLACK}Move to next section
-STR_0915    :{SMALLFONT}{BLACK}Construct the selected section
-STR_0916    :{SMALLFONT}{BLACK}Remove the highlighted section
+STR_0909    :旋转座位
+STR_0910    :{SMALLFONT}{BLACK}向左倾斜
+STR_0911    :{SMALLFONT}{BLACK}向右倾斜
+STR_0912    :{SMALLFONT}{BLACK}不倾斜
+STR_0913    :{SMALLFONT}{BLACK}移动到前一个部分
+STR_0914    :{SMALLFONT}{BLACK}移动到后一个部分
+STR_0915    :{SMALLFONT}{BLACK}建造此被选中的部分
+STR_0916    :{SMALLFONT}{BLACK}拆除高亮的部分
 STR_0917    :{SMALLFONT}{BLACK}垂直下坡
 STR_0918    :{SMALLFONT}{BLACK}陡峭下坡
 STR_0919    :{SMALLFONT}{BLACK}下坡
@@ -2459,9 +2459,9 @@ STR_3225    :{SMALLFONT}{BLACK}设置是否在选中的位置中随机建造一�
 STR_3226    :{SMALLFONT}{BLACK}建造乐园入口
 STR_3227    :太多乐园入口!
 STR_3228    :{SMALLFONT}{BLACK}设置游客的开始步行位置
-STR_3229    :区域煞车不能建造在车站之后
-STR_3230    :区域煞车不能建造在另一个区域煞车之后
-STR_3231    :区域煞车不能建造在这个提升坡的顶部之后
+STR_3229    :区域刹车不能建造在车站之后
+STR_3230    :区域刹车不能建造在另一个区域刹车之后
+STR_3231    :区域刹车不能建造在这个提升坡的顶部之后
 STR_3232    :选项 - 财政
 STR_3233    :选项 - 游客
 STR_3234    :选项 - 乐园
@@ -3653,7 +3653,7 @@ STR_6185    :选择Sprite
 STR_6186    :没有选择sprite
 STR_6187    :{MEDIUMFONT}{OUTLINE}{WINDOW_COLOUR_2}{STRING}
 STR_6188    :呕吐物
-STR_6189    :样子
+STR_6189    :鸭子
 STR_6190    :{SMALLFONT}{BLACK}当主界面激活时你无法选择一个sprite.
 STR_6191    :表面
 STR_6192    :墙
@@ -3773,7 +3773,7 @@ STR_6305    :多线程
 STR_6306    :{SMALLFONT}{BLACK}使用多个线程进行渲染的实验选项可能会导致游戏不稳定
 STR_6307    :配色主题: {BLACK}{STRINGID}
 STR_6308    :“{STRINGID}{OUTLINE}{TOPAZ}”{NEWLINE}{STRINGID}
-STR_6309    :重连
+STR_6309    :重新连接
 STR_6310    :{WINDOW_COLOUR_2}位置: {BLACK}{INT32} {INT32} {INT32}
 STR_6311    :{WINDOW_COLOUR_2}Next: {BLACK}{INT32} {INT32} {INT32}
 STR_6312    :(surface)
@@ -3782,15 +3782,15 @@ STR_6314    :{WINDOW_COLOUR_2}Dest: {BLACK}{INT32}, {INT32} tolerance {INT32}
 STR_6315    :{WINDOW_COLOUR_2}Pathfind Goal: {BLACK}{INT32}, {INT32}, {INT32} dir {INT32}
 STR_6316    :{WINDOW_COLOUR_2}Pathfind history:
 STR_6317    :{BLACK}{INT32}, {INT32}, {INT32} dir {INT32}
-STR_6318    :Network desync detected.{NEWLINE}日志文件: {STRING}
-STR_6319    :{WINDOW_COLOUR_2}Block Brake Closed
-STR_6320    :{WINDOW_COLOUR_2}Indestructible
-STR_6321    :{WINDOW_COLOUR_2}Addition is broken
+STR_6318    :监测到网络不同步。{NEWLINE}日志文件: {STRING}
+STR_6319    :{WINDOW_COLOUR_2}区域刹车关闭
+STR_6320    :{WINDOW_COLOUR_2}坚不可摧
+STR_6321    :{WINDOW_COLOUR_2}附加物品损坏
 STR_6322    :{WINDOW_COLOUR_2}Sprite Id: {BLACK}{INT32}
-STR_6323    :Simulating
-STR_6324    :Simulate
-STR_6325    :{SMALLFONT}{BLACK}Simulate ride/attraction
-STR_6326    :Can't simulate {POP16}{POP16}{POP16}{STRINGID}...
+STR_6323    :模拟中
+STR_6324    :模拟运行
+STR_6325    :{SMALLFONT}{BLACK}游乐设施/店铺运行
+STR_6326    :无法模拟{POP16}{POP16}{POP16}{STRINGID}...
 STR_6327    :大型截图的透明背景
 STR_6328    :{SMALLFONT}{BLACK}启用此选项后，大型截图的背景将是透明的，而不是默认的黑色。
 
@@ -3868,22 +3868,22 @@ STR_DTLS    :这个乐园已经有一些既优秀又现代的游乐设施，但�
 <Mystic Mountain>
 STR_SCNR    :Mystic Mountain
 STR_PARK    :Mystic Mountain
-STR_DTLS    :In the hilly forests of Mystic Mountain, build a theme park from scratch
+STR_DTLS    :在Mystic Mountain崎岖不平的山林中, 从零开始建造一座游乐园
 
 <Pacific Pyramids>
 STR_SCNR    :Pacific Pyramids
 STR_PARK    :Pacific Pyramids
-STR_DTLS    :Convert the Egyptian Ruins tourist attraction into a thriving theme park
+STR_DTLS    :将这个一直是旅游景点的埃及遗址改造成一个受欢迎的主题乐园
 
 <Crumbly Woods>
 STR_SCNR    :Crumbly Woods
 STR_PARK    :Crumbly Woods
-STR_DTLS    :A large park with well-designed but rather old rides - Replace the old rides or add new rides to make the park more popular
+STR_DTLS    :这是一个拥有老旧却精心设计的游乐设施的大型乐园，翻新这些设施或者建造新的游乐设施，使乐园变得更受欢迎
 
 <Paradise Pier>
 STR_SCNR    :Paradise Pier
 STR_PARK    :Paradise Pier
-STR_DTLS    :Convert this sleepy town's pier into a thriving attraction
+STR_DTLS    :将这个平凡无奇的小镇码头改造成一个很受欢迎的乐园
 
 <Lightning Peaks>
 STR_SCNR    :Lightning Peaks
