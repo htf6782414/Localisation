@@ -3049,9 +3049,9 @@ STR_5546    :{SMALLFONT}{BLACK}亮粉色
 STR_5547    :{SMALLFONT}{BLACK}浅粉色
 STR_5548    :显示所有运行模式
 STR_5549    :年/月/日
-STR_5550    :第{POP16}{POP16}{COMMA16}年, {PUSH16}{PUSH16}{MONTH} {PUSH16}{PUSH16}{STRINGID}
+STR_5550    :第{POP16}{POP16}{COMMA16}年{PUSH16}{PUSH16}{MONTH}{PUSH16}{PUSH16}{STRINGID}
 STR_5551    :年/日/月
-STR_5552    :第{POP16}{POP16}{COMMA16}年, {PUSH16}{PUSH16}{PUSH16}{STRINGID} {MONTH}
+STR_5552    :第{POP16}{POP16}{COMMA16}年{PUSH16}{PUSH16}{PUSH16}{STRINGID}{MONTH}
 STR_5553    :当Steam overlay打开时暂停游戏
 STR_5554    :{SMALLFONT}{BLACK}启用山丘工具
 STR_5555    :显示来自其他类型轨道的车辆种类
@@ -3782,7 +3782,7 @@ STR_6314    :{WINDOW_COLOUR_2}Dest: {BLACK}{INT32}, {INT32} tolerance {INT32}
 STR_6315    :{WINDOW_COLOUR_2}Pathfind Goal: {BLACK}{INT32}, {INT32}, {INT32} dir {INT32}
 STR_6316    :{WINDOW_COLOUR_2}Pathfind history:
 STR_6317    :{BLACK}{INT32}, {INT32}, {INT32} dir {INT32}
-STR_6318    :监测到网络不同步。{NEWLINE}日志文件: {STRING}
+STR_6318    :检测到网络不同步。{NEWLINE}日志文件: {STRING}
 STR_6319    :{WINDOW_COLOUR_2}区域刹车关闭
 STR_6320    :{WINDOW_COLOUR_2}坚不可摧
 STR_6321    :{WINDOW_COLOUR_2}附加物品损坏
@@ -3888,330 +3888,330 @@ STR_DTLS    :将这个平凡无奇的小镇码头改造成一个很受欢迎的�
 <Lightning Peaks>
 STR_SCNR    :Lightning Peaks
 STR_PARK    :Lightning Peaks
-STR_DTLS    :The beautiful mountains of Lightning Peaks are popular with walkers and sightseers - Use the available land to attract a new thrill-seeking clientele
+STR_DTLS    :美丽的Lightning Peaks很受徒步客和观光客的欢迎——利用现有的土地来吸引新的寻求刺激的人来
 
 <Ivory Towers>
 STR_SCNR    :Ivory Towers
 STR_PARK    :Ivory Towers
-STR_DTLS    :A well-established park, which has a few problems
+STR_DTLS    :一个比较完善的公园，但它还有一些问题
 
 <Rainbow Valley>
 STR_SCNR    :Rainbow Valley
 STR_PARK    :Rainbow Valley
-STR_DTLS    :Rainbow Valley's local authority won't allow any landscape changes or large tree removal, but you must develop the area into a large theme park
+STR_DTLS    :Rainbow Valley所在的当地政府不允许任何景观改造或砍伐移除大型树木，但你必须将该地区开发成一个大型主题乐园
 
 <Thunder Rock>
 STR_SCNR    :Thunder Rock
 STR_PARK    :Thunder Rock
-STR_DTLS    :Thunder Rock stands in the middle of a desert and attracts many tourists - Use the available space to build rides to attract more people
+STR_DTLS    :Thunder Rock在沙漠的中央，吸引了很多游客——利用可用的空间建造游乐设施来吸引更多的人
 
 <Mega Park>
 STR_SCNR    :Mega Park
 STR_PARK    :Mega Park
-STR_DTLS    :Just for fun!
+STR_DTLS    :就是玩!放手去玩吧！
 
 ## Added Attractions
 <Whispering Cliffs>
 STR_SCNR    :Whispering Cliffs
 STR_PARK    :Whispering Cliffs
-STR_DTLS    :Develop the seaside cliffs into a thriving amusement park
+STR_DTLS    :把海边的悬崖发展成一个生意兴隆的游乐园
 
 <Three Monkeys Park>
 STR_SCNR    :Three Monkeys Park
 STR_PARK    :Three Monkeys Park
-STR_DTLS    :Central to this large developing park is a giant triple-track racing/duelling steel coaster
+STR_DTLS    :这个正在开发中的大型游乐园的中心是一个巨大的三轨道钢质过山车
 
 <Canary Mines>
 STR_SCNR    :Canary Mines
 STR_PARK    :Canary Mines
-STR_DTLS    :This abandoned mine already has the makings of a tourist attraction with its minature railway and a pair of vertical drop roller coasters
+STR_DTLS    :这个废弃的矿井已经具备了成为旅游景点的条件，因为它有一条微型铁路和一对垂直下落的云霄飞车
 
 <Barony Bridge>
 STR_SCNR    :Barony Bridge
 STR_PARK    :Barony Bridge
-STR_DTLS    :An old redundant bridge is yours to develop into an amusement park
+STR_DTLS    :一座陈旧的退役的桥梁现在是你的了，将其开发成一个游乐园
 
 <Funtopia>
 STR_SCNR    :Funtopia
 STR_PARK    :Funtopia
-STR_DTLS    :Covering land both sides of a highway, this park has several rides already operating
+STR_DTLS    :这个公园覆盖了高速公路两侧的土地，并且已经有好几个游乐设施在运营了
 
 <Haunted Harbour>
 STR_SCNR    :Haunted Harbour
 STR_PARK    :Haunted Harbour
-STR_DTLS    :The local authority has agreed to sell nearby land cheaply to this small seaside park, on the condition that certain rides are preserved
+STR_DTLS    :当地政府已同意将附近的土地廉价出售给这个海滨小公园，条件是保留一些游乐设施
 
 <Fun Fortress>
 STR_SCNR    :Fun Fortress
 STR_PARK    :Fun Fortress
-STR_DTLS    :This castle is all yours to turn into a theme park
+STR_DTLS    :这座城堡完全属于你，你可以把它建成一个主题公园
 
 <Future World>
 STR_SCNR    :Future World
 STR_PARK    :Future World
-STR_DTLS    :This futuristic park has plenty of space for new rides on its alien landscape
+STR_DTLS    :这个充满未来感的公园有足够的空间让游客在其陌生的景观上乘坐新的游乐设施
 
 <Gentle Glen>
 STR_SCNR    :Gentle Glen
 STR_PARK    :Gentle Glen
-STR_DTLS    :The local population prefer gentle and relaxing rides, so it is your job to expand this park to suit their tastes
+STR_DTLS    :当地居民更喜欢温和、轻松的骑行方式，所以你的工作就是把这个乐园改建得更对他们的胃口
 
 <Jolly Jungle>
 STR_SCNR    :Jolly Jungle
 STR_PARK    :Jolly Jungle
-STR_DTLS    :Deep in the jungle lies a large area of land ready to be turned into a theme park
+STR_DTLS    :在丛林的深处有一大片土地正在准备被建成一个主题乐园
 
 <Hydro Hills>
 STR_SCNR    :Hydro Hills
 STR_PARK    :Hydro Hills
-STR_DTLS    :A series of stepped lakes form the basis for this new park
+STR_DTLS    :一系列阶梯式的湖泊构成了这个新乐园的基础环境
 
 <Sprightly Park>
 STR_SCNR    :Sprightly Park
 STR_PARK    :Sprightly Park
-STR_DTLS    :This elderly park has many historical rides but is badly in debt
+STR_DTLS    :这个陈旧的游乐园有许多历史悠久的游乐设施，和很大一堆债务
 
 <Magic Quarters>
 STR_SCNR    :Magic Quarters
 STR_PARK    :Magic Quarters
-STR_DTLS    :A large area of land has been cleared and partially themed ready for you to develop into a landscaped theme park
+STR_DTLS    :这里的一大片土地已被清理干净，还有一部分主题已经准备好，你要将这开发成一座景观主题乐园
 
 <Fruit Farm>
 STR_SCNR    :Fruit Farm
 STR_PARK    :Fruit Farm
-STR_DTLS    :A thriving fruit farm has built a railroad to boost its income, your job is to develop it into a full-blown amusement park
+STR_DTLS    :一个繁荣的水果农场建了一条铁路来增加收入，你的工作是把它开发成一个充分发展的游乐园
 
 <Butterfly Dam>
 STR_SCNR    :Butterfly Dam
 STR_PARK    :Butterfly Dam
-STR_DTLS    :The area around a dam is available for you to develop into an amusement park
+STR_DTLS    :一座大坝的周边区域可供你用于开发成一座游乐园
 
 <Coaster Canyon>
 STR_SCNR    :Coaster Canyon
 STR_PARK    :Coaster Canyon
-STR_DTLS    :A vast canyon is yours to turn into a theme park
+STR_DTLS    :你要将一个巨大的峡谷建成你的主题乐园
 
 <Thunderstorm Park>
 STR_SCNR    :Thunderstorm Park
 STR_PARK    :Thunderstorm Park
-STR_DTLS    :The weather is so wet here that a giant pyramid has been built to allow some rides to be built under cover
+STR_DTLS    :这里的天气是如此潮湿，以至于我们建造了一个巨大的金字塔，好让我们在它里面建造游乐设施
 
 <Harmonic Hills>
 STR_SCNR    :Harmonic Hills
 STR_PARK    :Harmonic Hills
-STR_DTLS    :The local authority won't allow you to build above tree height in this park
+STR_DTLS    :当地政府不允许你在这个乐园里建造高于树木高度的东西
 
 <Roman Village>
 STR_SCNR    :Roman Village
 STR_PARK    :Roman Village
-STR_DTLS    :Develop this Roman-themed park by adding rides and roller coasters
+STR_DTLS    :通过增加游乐设施和过山车来发展这个浪漫主题游乐园
 
 <Swamp Cove>
 STR_SCNR    :Swamp Cove
 STR_PARK    :Swamp Cove
-STR_DTLS    :Built partly on a series of small islands, this park already has a pair of large roller coasters as its centerpiece
+STR_DTLS    :这座乐园的一部分建在一系列小岛上，且已经有一对大型过山车作为乐园的核心设施
 
 <Adrenaline Heights>
 STR_SCNR    :Adrenaline Heights
 STR_PARK    :Adrenaline Heights
-STR_DTLS    :Build a park to appeal to the high-intensity thrill-seeking local people
+STR_DTLS    :建造一个游乐园来吸引那些就想找刺激的当地人
 
 <Utopia Park>
 STR_SCNR    :Utopia Park
 STR_PARK    :Utopia
-STR_DTLS    :An oasis in the middle of the desert provides an unusual opportunity to build an amusement park
+STR_DTLS    :沙漠中央的绿洲为建造游乐园提供了一个不寻常的机会
 
 <Rotting Heights>
 STR_SCNR    :Rotting Heights
 STR_PARK    :Rotting Heights
-STR_DTLS    :Overgrown and dilapidated, can you resurrect this once-great amusement park?
+STR_DTLS    :杂草丛生，破败不堪，你能让这个曾经伟大的游乐园重现生机吗?
 
 <Fiasco Forest>
 STR_SCNR    :Fiasco Forest
 STR_PARK    :Fiasco Forest
-STR_DTLS    :Full of badly designed and dangerous rides, you have a very limited budget and time to fix the problems and turn the park around
+STR_DTLS    :这个乐园满是设计糟糕和充满危险的游乐设施，你只有非常有限的预算和时间来解决问题和扭转乐园的现状
 
 <Pickle Park>
 STR_SCNR    :Pickle Park
 STR_PARK    :Pickle Park
-STR_DTLS    :The local authority will not allow any kind of advertising or promotion, so this park must succeed by reputation only
+STR_DTLS    :当地政府不允许任何形式的广告或促销，所以这个游乐园只能靠名气来取得成功
 
 <Giggle Downs>
 STR_SCNR    :Giggle Downs
 STR_PARK    :Giggle Downs
-STR_DTLS    :A four lane steeplechase ride is the centerpiece of this expanding park
+STR_DTLS    :一个四车道的越野障碍赛道是这个正在扩大的公园的核心
 
 <Mineral Park>
 STR_SCNR    :Mineral Park
 STR_PARK    :Mineral Park
-STR_DTLS    :Turn this abandoned stone quarry into a place to attract thrill-seeking tourists
+STR_DTLS    :把这个废弃的采石场变成一个吸引那些喜欢寻求刺激的游客的地方
 
 <Coaster Crazy>
 STR_SCNR    :Coaster Crazy
 STR_PARK    :Coaster Crazy
-STR_DTLS    :You have limited funds but unlimited time to turn this mountainside area into a vast roller coaster park
+STR_DTLS    :你只有有限的资金却有无限的时间，你需要把这个山区变成一个巨大的过山车乐园
 
 <Urban Park>
 STR_SCNR    :Urban Park
 STR_PARK    :Urban Park
-STR_DTLS    :A tiny park has done a deal with the nearby town to allow expansion through the town itself
+STR_DTLS    :一个小公园与附近的城镇达成乐协议，允许其通过城镇本身来进行扩建
 
 <Geoffrey Gardens>
 STR_SCNR    :Geoffrey Gardens
 STR_PARK    :Geoffrey Gardens
-STR_DTLS    :A large garden park needs turning into a thriving theme park
+STR_DTLS    :一个大型的花园公园需要变成一个生意兴隆的主题乐园
 
 
 ## Loopy Landscapes
 <Iceberg Islands>
 STR_SCNR    :Iceberg Islands
 STR_PARK    :Iceberg Islands
-STR_DTLS    :A collection of icebergs make a cold setting for this ambitious theme park
+STR_DTLS    :这个雄心勃勃的主题乐园坐落在一组冰山的严寒环境之中
 
 <Volcania>
 STR_SCNR    :Volcania
 STR_PARK    :Volcania
-STR_DTLS    :A dormant volcano is the setting of this coaster-building challenge
+STR_DTLS    :这次需要在一座休眠火山里建造过山车
 
 <Arid Heights>
 STR_SCNR    :Arid Heights
 STR_PARK    :Arid Heights
-STR_DTLS    :Free of any financial limits, your challenge is to develop this desert park while keeping the guests happy
+STR_DTLS    :没有任何财务资金限制，你的挑战是开发这个沙漠公园，同时保持游客的快乐
 
 <Razor Rocks>
 STR_SCNR    :Razor Rocks
 STR_PARK    :Razor Rocks
-STR_DTLS    :Your task is to build a massive coaster-filled park in amongst Razor Rocks
+STR_DTLS    :你的任务是在Razor Rocks中建造一个巨大的过山车公园
 
 <Crater Lake>
 STR_SCNR    :Crater Lake
 STR_PARK    :Crater Lake
-STR_DTLS    :A large lake in an ancient crater is the setting for this park
+STR_DTLS    :这个公园的背景是一个古老火山口中的一个大湖
 
 <Vertigo Views>
 STR_SCNR    :Vertigo Views
 STR_PARK    :Vertigo Views
-STR_DTLS    :This large park already has an excellent hyper-coaster, but your task is to massively increase its profit
+STR_DTLS    :这个大公园已经有一个非常棒的超级过山车，但你的任务是大幅增加它的利润
 
 <Paradise Pier 2>
 STR_SCNR    :Paradise Pier 2
 STR_PARK    :Paradise Pier 2
-STR_DTLS    :Paradise Pier has expanded its network of walkways over the sea, and your task is to expand the park to use the extra space
+STR_DTLS    :Paradise Pier已经扩大了它的海上人行道网络，你的任务是使用额外的空间来扩大这个乐园
 
 <Dragon's Cove>
 STR_SCNR    :Dragon's Cove
 STR_PARK    :Dragon's Cove
-STR_DTLS    :This sea-side cove is the setting for this coaster-building challenge
+STR_DTLS    :这个海边的海湾是这次过山车建造的背景场地
 
 <Good Knight Park>
 STR_SCNR    :Good Knight Park
 STR_PARK    :Good Knight Park
-STR_DTLS    :A castle with a pair of roller coasters needs developing into a larger theme park
+STR_DTLS    :一座有两个过山车的城堡需要发展成一个更大的主题公园
 
 <Wacky Warren>
 STR_SCNR    :Wacky Warren
 STR_PARK    :Wacky Warren
-STR_DTLS    :A park which has much of its footpaths and coasters underground
+STR_DTLS    :一个地下有很多人行道和过山车的公园
 
 <Grand Glacier>
 STR_SCNR    :Grand Glacier
 STR_PARK    :Grand Glacier
-STR_DTLS    :A glacier-filled valley is yours to develop into a theme park
+STR_DTLS    :你要将一个冰川覆盖的山谷开发成一个主题公园
 
 <Crazy Craters>
 STR_SCNR    :Crazy Craters
 STR_PARK    :Crazy Craters
-STR_DTLS    :In a far-off world where money is not needed, you must build an entertainment centre to keep the people happy
+STR_DTLS    :在一个不需要钱的遥远的世界里，你必须建立一个娱乐中心来让人们快乐
 
 <Dusty Desert>
 STR_SCNR    :Dusty Desert
 STR_PARK    :Dusty Desert
-STR_DTLS    :Five coasters require completion in this desert park
+STR_DTLS    :这个沙漠公园需要建造完成五个过山车
 
 <Woodworm Park>
 STR_SCNR    :Woodworm Park
 STR_PARK    :Woodworm Park
-STR_DTLS    :This historical park is only allowed to build older-styled rides
+STR_DTLS    :这个历史主题乐园只允许建造老式游乐设施
 
 <Icarus Park>
 STR_SCNR    :Icarus Park
 STR_PARK    :Icarus Park
-STR_DTLS    :Develop this alien park to maximize its profit
+STR_DTLS    :开发这个外来公园，使其利润最大化
 
 <Sunny Swamps>
 STR_SCNR    :Sunny Swamps
 STR_PARK    :Sunny Swamps
-STR_DTLS    :This well-themed amusement park already has several rides, but has plenty of space for expansion
+STR_DTLS    :这个主题鲜明的游乐园已经有好几个游乐设施，但仍有足够的扩展空间
 
 <Frightmare Hills>
 STR_SCNR    :Frightmare Hills
 STR_PARK    :Frightmare Hills
-STR_DTLS    :A scary park with a giant centrepiece coaster
+STR_DTLS    :一座可怕的游乐园，它中间有一个巨大的过山车
 
 <Thunder Rocks>
 STR_SCNR    :Thunder Rocks
 STR_PARK    :Thunder Rocks
-STR_DTLS    :Two large hunks of rock stick out of the sand, upon which the beginnings of a theme park are constructed
+STR_DTLS    :两块大岩石从沙子里伸出来，你要在上面建造了一个主题乐园
 
 <Octagon Park>
 STR_SCNR    :Octagon Park
 STR_PARK    :Octagon Park
-STR_DTLS    :In this large park you must design and build ten large coasters
+STR_DTLS    :在这个大公园里，你必须设计和建造十个大型过山车
 
 <Pleasure Island>
 STR_SCNR    :Pleasure Island
 STR_PARK    :Pleasure Island
-STR_DTLS    :A long thin island makes a challenging setting to build a selection of coasters
+STR_DTLS    :这座狭长的岛屿对于建造一些云霄飞车来说具有一定的挑战性
 
 <Icicle Worlds>
 STR_SCNR    :Icicle Worlds
 STR_PARK    :Icicle Worlds
-STR_DTLS    :An icy landscape needs turning into a thriving theme park
+STR_DTLS    :这些冷冰冰的景观需要建成一座受欢迎的主题乐园
 
 <Southern Sands>
 STR_SCNR    :Southern Sands
 STR_PARK    :Southern Sands
-STR_DTLS    :A desert park with some cleverly designed coasters is yours to expand
+STR_DTLS    :一座拥有一些设计巧妙的云霄飞车的沙漠乐园是你用来扩展的空间
 
 <Tiny Towers>
 STR_SCNR    :Tiny Towers
 STR_PARK    :Tiny Towers
-STR_DTLS    :In this tiny park you must finish building the five existing coasters
+STR_DTLS    :在这个小小乐园里，你必须建好现有的五座过山车
 
 <Nevermore Park>
 STR_SCNR    :Nevermore Park
 STR_PARK    :Nevermore Park
-STR_DTLS    :A large park with a novel transporation system around its edge
+STR_DTLS    :一个大型乐园，四周边缘是一个新颖的交通系统
 
 <Pacifica>
 STR_SCNR    :Pacifica
 STR_PARK    :Pacifica
-STR_DTLS    :This large island is all yours to develop as an amusement park
+STR_DTLS    :这个大岛屿完全是你的，你可以把它开发成一个游乐园
 
 <Urban Jungle>
 STR_SCNR    :Urban Jungle
 STR_PARK    :Urban Jungle
-STR_DTLS    :A giant abandoned skyscraper is a unique opportunity for a theme park developer
+STR_DTLS    :对于主题乐园开发商来说，这一座巨大的废弃摩天大楼是一个独特的机会
 
 <Terror Town>
 STR_SCNR    :Terror Town
 STR_PARK    :Terror Town
-STR_DTLS    :This urban area is all yours to develop into an amusement park
+STR_DTLS    :这个城镇将完全交给你来开发成为一个游乐园
 
 <Megaworld Park>
 STR_SCNR    :Megaworld Park
 STR_PARK    :Megaworld Park
-STR_DTLS    :A giant park already packed full of rides needs improving
+STR_DTLS    :一个已经挤满了游乐设施的巨大乐园需要得到改进
 
 <Venus Ponds>
 STR_SCNR    :Venus Ponds
 STR_PARK    :Venus Ponds
-STR_DTLS    :On a far-away planet this area of land needs turning into a theme park
+STR_DTLS    :在一个遥远的星球上，这片土地需要建成一个主题乐园
 
 <Micro Park>
 STR_SCNR    :Micro Park
 STR_PARK    :Micro Park
-STR_DTLS    :Try to create the world's smallest profitable park
+STR_DTLS    :试着去打造一个世界上最小的盈利的乐园
 
 ## Real Parks from RCT1
 # None of them had details
